@@ -1,0 +1,217 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.logo-header {
+    Width: 100px;
+    Height: 28px;
+}
+
+/* retirar quando for fazer responsividade computador e tablet */
+
+.campo-busca {
+    display: none;
+}
+
+/* retirar quando for fazer responsividade computador e tablet */
+
+.botao-busca {
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.botao-login {
+    border: 1px solid #2A7AE4;
+    background: white;
+    Width: 133px;
+    Height: 40px;
+    color: #2A7AE4;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100vw;
+    height: 192px;
+}
+
+.banner {
+    background-image: url(./assets/banner-img.png);
+    background-size: 100vw 192px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.promocao-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0 16px 16px;
+}
+
+.title-banner {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.subtitle-banner {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.botao-banner {
+    width: 119px;
+    height: 40px;
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tittle-botaovertudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 64px 16px 16px 16px;
+    align-items: center;
+}
+
+
+.title-main {
+    font-size: 22px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.botao-ver-tudo {
+    border: none;
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.seta-botaovertudo {
+    padding: 0 0px 0 8px;
+}
+
+.imagens-porduto {
+    width: 156px;
+    height: 174px;
+}
+
+.produtos-all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.descricao-produtos {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+    padding: 4px 0 4px 0;
+}
+
+.preco-produtos {
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+    padding: 4px 0 4px 0;
+}
+
+.botao-ver-produto {
+    border: none;
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px 0 8px 0;
+}
+
+.sobre-nos-formulario {
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer {
+    width: 176px;
+    height: 50px;
+    padding: 16px 0 16px 0;
+}
+
+.sobrenos {
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    padding: 0px 0 16px 0;
+    text-align: center;
+}
+
+.fale-conosco {
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+    padding: 16px 0 8px 0;
+}
+
+.input-fomulario {
+    width: 328px;
+    height: 40px;
+    margin: 0 0 8px 0;
+    border: none;
+}
+
+.textarea-formulario {
+    width: 328px;
+    height: 82px;
+    margin: 0 0 8px 0;
+    border: none;
+}
+
+.botao-formulario {
+    width: 151px;
+    height: 40px;
+    border: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.deselvolvedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 32px;
+}
+
+.desenvolvedor-info {
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    padding-bottom: 8px;
+}
