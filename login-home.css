@@ -1,0 +1,35 @@
+.botao-login {
+    display: none;
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle-iniciar-sessao {
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+    padding: 97px 0 24px 0;
+}
+
+.input-formulario-login {
+    width: 275px;
+    height: 41px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    margin: 0 0 29px 0;
+}
+
+.botao-formulario-login {
+    width: 109px;
+    height: 40px;
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 76px 0;
+}
