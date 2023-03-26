@@ -1,0 +1,30 @@
+
+
+.todos-os-produtos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+.produtos-all {
+    padding: 0 15px 0 15px; 
+}
+
+.tittle-todos-os-produtos {
+    font-size: 22px;
+    font-weight: 700;
+    color: #464646;
+    padding: 0 0 16px 0;
+}
+
+.botao-adicionar-produto {
+    width: 151px;
+    height: 40px;
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+}
+
