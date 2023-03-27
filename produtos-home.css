@@ -1,4 +1,7 @@
 
+.botao-login {
+    display: none;
+}
 
 .todos-os-produtos {
     display: flex;
