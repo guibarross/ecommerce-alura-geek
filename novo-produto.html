@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produtos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-home.css">
+    <link rel="stylesheet" href="novo-produto.css">
+</head>
+
+<header>
+    <img class="logo-header " src="./assets/Logo.png" alt="Logo AluraGeek">
+    <input class="campo-busca" type="text" placeholder="O que deseja encontrar?">
+    <div class="campo-busca-reverse">
+    <button class="botao-busca"><img class="icone-busca" src="./assets/vetor-busca.png"
+            alt="Botão Pesquisa"></button>
+
+    <button class="botao-menu-administrador">Menu Administrador</button>
+</div>
+</header>
+
+<main>
+<section class="novo-produto">
+    
+    <form action="" class="formulario-novo-produto">
+            <h3 class="tittle-novo-produto">Adicionar novo produto</h3>
+        <div>
+        <label for="url" class="label-formulario-novo-produto">URL da imagem</label>
+        <input class="input-novo-produto" type="url" id="url" name="url" minlength="4" required>
+    </div>
+    
+    <div>
+        <label for="categoria" class="label-formulario-novo-produto">Categoria</label>
+	<input class="input-novo-produto" type="text" id="categoria" name="categoria" required>
+</div>
+
+<div>
+    <label for="nome-produto" class="label-formulario-novo-produto">Nome do produto</label>
+	<input class="input-novo-produto" type="text" id="nome-produto" name="nome-produto" required>
+
+</div>
+
+<div>
+    <label for="preco-produto" class="label-formulario-novo-produto">Preço do produto</label>
+	<input class="input-novo-produto" type="text" id="preco-produto" name="preco-produto" required>
+
+</div>
+
+<div>
+    <label for="descricao-produto" class="label-formulario-novo-produto">Descrição do produto</label>
+   <input class="input-novo-produto" type="text" id="preco-produto" name="preco-produto" required>
+</div>
+        <button class="botao-novo-produto">Adicionar produto</button>
+        
+    </form>
+    </section>
+</main>
+    
+    <footer>
+        <div class="sobre-nos-formulario">
+        <img class="logo-footer" src="./assets/Logo.png" alt="Logo AluraGeek">
+    
+        <ul class="sobre-nos-all">
+            <li class="sobrenos">Quem somos nós </li>
+            <li class="sobrenos">Política de privacidade </li>
+            <li class="sobrenos">Programa fidelidade</li>
+            <li class="sobrenos">Nossas lojas </li>
+            <li class="sobrenos">Quero ser franqueado</li>
+            <li class="sobrenos">Anuncie aqui</li>
+        </ul>
+    
+        <form action="" class="formulario">
+            <h3 class="fale-conosco">Fale conosco</h3>
+    
+            <input class="input-fomulario" type="text" id="nome" placeholder="Nome" minlength="2" required>
+    
+            <textarea class="textarea-formulario" rows="5" cols="40" name="mensagem" id="mensagem"
+                placeholder="Escreva sua mensagem" required></textarea>
+            <button class="botao-formulario">Enviar mensagem</button>
+        </form>
+    </div>
+    <div class="deselvolvedor">
+    <p class="desenvolvedor-info">Desenvolvido por Guilherme Barros</p>
+    <p>2023</p>
+    </div>
+    
+    </footer>
