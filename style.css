@@ -1,4 +1,4 @@
-header {
+.header-all {
     display: flex;
     justify-content: space-between;
     margin: 16px;
@@ -8,6 +8,11 @@ header {
 .campo-busca-reverse {
     display: flex;
     flex-direction: row-reverse;
+    cursor: pointer;
+}
+
+.botao-busca-no-reverse {
+    display: none;
 }
 
 .logo-header {
@@ -38,11 +43,6 @@ header {
     font-weight: 600;
     cursor: pointer;
     margin: 0 25px 0 0;
-}
-
-.banner {
-    width: 100%;
-    height: 192px;
 }
 
 .banner {
@@ -97,6 +97,7 @@ header {
     font-size: 22px;
     font-weight: 700;
     color: #464646;
+    margin: 0 0px 0px 36px;
 }
 
 .botao-ver-tudo {
@@ -108,6 +109,7 @@ header {
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin: 0 36px 0px 0px;
 }
 
 .seta-botaovertudo {
@@ -119,11 +121,17 @@ header {
     height: 174px;
 }
 
+.produtos {
+    padding: 0 8px 0 8px;
+}
+
 .produtos-all {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 24px 0px 24px;
+
 }
 
 .descricao-produtos {
@@ -221,4 +229,132 @@ header {
     font-size: 16px;
     color: #464646;
     padding-bottom: 8px;
+}
+
+.logo-footer-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+
+    .banner {
+        height: 100%;
+        height: 352px;
+    }
+
+    .banner {
+        background-size: 100vw 352px;
+    }
+
+    .promocao-banner {
+        padding: 161px 0 32px 32px;
+    }
+
+    .title-banner {
+        font-size: 52px;
+        font-weight: 700;
+        padding-bottom: 16px;
+    }
+
+    .subtitle-banner {
+        font-size: 26px;
+        font-weight: 600;
+        padding-bottom: 16px;
+    }
+
+
+    .campo-busca {
+        display: flex;
+        border: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #A2A2A2;
+        padding: 0 49px 0 0;
+        height: 40px;
+    }
+
+    .campo-busca-reverse {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .botao-login {
+        margin: 0;
+    }
+
+    .botao-busca {
+        display: none;
+    }
+
+    .botao-busca-no-reverse {
+        border: none;
+        background: white;
+        cursor: pointer;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .sobre-nos-formulario {
+        background-color: #EAF2FD;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: left;
+        padding: 0 32px;
+    }
+
+    .sobrenos {
+        text-align: left;
+    }
+
+    .logo-footer-desktop {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .header-all {
+        padding: 0px 152px;
+    }
+
+    .logo-header {
+        Width: 176px;
+        Height: 50px;
+    }
+
+    .header-all {
+        margin: 32px;
+    }
+
+    .promocao-banner {
+        padding: 150px 152px;
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    .logo-footer-desktop {
+        display: flex;
+        width: 176px;
+        height: 50px;
+    }
+
+    .fale-conosco {
+        padding: 0px 0 8px 0;
+    }
+
+
+    .sobre-nos-formulario {
+        background-color: #EAF2FD;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: normal;
+        text-align: left;
+        padding: 64px 152px;
+    }
+
 }
